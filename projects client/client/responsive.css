@@ -1,0 +1,134 @@
+@media screen and (max-width:767px) {
+    
+.full-black{
+
+    background-image: linear-gradient(180deg, #e3f1f1 50%, #fff 0%);
+    min-height: 100vh;
+    padding-bottom: 4rem;
+}
+
+
+.banner_wrapper .header-img-section{
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.banner_wrapper .header-img-section img{
+
+    width: 70%;
+    overflow: hidden;
+    align-self: center;
+}
+
+.btn{
+    margin-bottom: 2rem;
+   font-size: 1rem;
+    margin: auto;
+}
+
+}
+
+
+@media screen and (max-width:1200px) {
+
+    
+  .text-reports::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 15%;
+    height: .2rem;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--bg-light-2);
+  }
+
+
+  
+  .text-reports::before{
+
+    position: absolute;
+    content: '';
+    display: block;
+    width: 15%;
+    height: .2rem;
+    right: 6%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--bg-light-2);
+  }
+
+
+
+  @media screen and (max-width:991px) {
+
+    
+    .text-reports::after{
+      position: absolute;
+      content: '';
+      display: block;
+      width: 10%;
+      height: .2rem;
+      left: 15%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--bg-light-2);
+    }
+  
+    .mlg img{
+
+
+      display: none;
+    }
+    
+    .text-reports::before{
+  
+      position: absolute;
+      content: '';
+      display: block;
+      width: 10%;
+      height: .2rem;
+      right: 5%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--bg-light-2);
+    }
+  
+  
+    
+}
+
+@media screen and (max-width:651px) {
+
+    
+    .text-reports::after{
+    display: none;
+    }
+  
+  
+    
+    .text-reports::before{
+  
+     display: none;
+    }
+  
+  
+    
+}
+
+@media screen and (max-width:420px) {
+
+    .banner-title{
+        font-size:2rem !important;
+    }
+
+    .banner-subtitle{
+
+        font-size: 1.4rem !important;
+        margin-top: 1rem;
+    }
+}
+
+}
